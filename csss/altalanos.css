@@ -11,7 +11,9 @@ body {
 }
 
 #fejlec {
-  background-color: red;
+  background-color:aqua;
+  align-content: end;
+  overflow: hidden;
 }
 
 #tartalom {
@@ -37,5 +39,35 @@ body {
 
 #csovezetek {
   background-color: blue;
-  flex-grow: 1;
+  width: 90px;
+  background-repeat: repeat-y;
+  background-image: url('../imgs/pipetest.png');
+  background-size: auto 227px;
+}
+
+.image-container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  width: 100%;
+  height: 15%;
+  background-image: url('../imgs/blockk.png');
+  background-size: 50px 50px;
+  background-repeat: repeat; 
+}
+
+.pipefej {
+  width: 50%;
+  margin: 0 auto;
+  height: 120px;
+  background-image: url('../imgs/pipefej.png');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 100px;
+}
+
+.marioallo {
+  height: 100px;
+  position: relative;
+  top: 155px;
+  left: 150px;
 }
